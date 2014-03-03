@@ -1,0 +1,3 @@
+# SMARTLIVING.IO
+
+Landing page..
