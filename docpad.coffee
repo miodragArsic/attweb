@@ -50,10 +50,12 @@ docpadConfig = {
 
 			# Styles
 			styles: [
+				"/styles/bootstrap-social.css"
 				"/styles/twitter-bootstrap.css"
 				"/styles/style.css"
-				"/styles/bootstrap-social.css"
-				"//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"
+				"/styles/main.css"
+				"//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"				
+			
 			]
 
 			# Scripts
@@ -64,7 +66,6 @@ docpadConfig = {
 				"/scripts/script.js"				
 				"manycontacts.js"
 			]
-
 
 
 		# -----------------------------
