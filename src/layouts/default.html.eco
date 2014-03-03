@@ -37,6 +37,8 @@
 	<%- @getBlock('styles').add(@site.styles).toHTML() %>
 </head>
 <body>
+<h1>Testing! </h1>
+
 	<!-- Menu -->
 	<div class="navbar navbar-inverse navbar-fixed-top">
 		<div class="container">
