@@ -37,11 +37,8 @@
 	<%- @getBlock('styles').add(@site.styles).toHTML() %>
 </head>
 <body>
-<h1>Testing! </h1>
-
 	<!-- Menu -->
 	<div class="navbar navbar-inverse navbar-fixed-top">
-		<div class="container">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 					<span class="icon-bar"></span>
@@ -68,51 +65,48 @@
 		</div>
 	</div>
 
-	<!-- Content -->
-	<div class="container">
 		<!-- Content -->
 		<section id="content" class="content">
 			<%- @content %>
 		</section>
 
 		<!-- Footer -->
-		<footer>
-			<div class="row" class="text-center">
-				<div class="col-lg-3">
+		<footer id="footer"> <br><br>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-2 col-lg-offset-1">
 					<a href="http://www.iminds.be/en">Welcome</a><br>
 					<a href="http://www.iminds.be/en">About us</a><br>
 					<a href="http://www.iminds.be/en">Contact</a>
-				</div>
-				<div class="col-lg-2"></div>
-				<div class="col-lg-3"></div>
-				<div class="col-lg-3"  align="right">
+				</div>	
+				<div class="col-lg-2 col-lg-offset-10">
 					<a class="btn btn-social-icon btn-twitter"> <i
-						class="fa fa-twitter"></i>
-					</a> <a class="btn btn-social-icon btn-google-plus"> <i
-						class="fa fa-google-plus"></i>
-					</a> <a class="btn btn-social-icon btn-linkedin"> <i
-						class="fa fa-linkedin"></i>
-					</a> <a class="btn btn-social-icon btn-facebook"> <i
-						class="fa fa-facebook"></i>
-					</a>
-
-					<p>
-					<br>
-					<br>
-					<br>
-					<h5 >	<i>Powered by</i> <a href="http://www.allthingstalk.com">ALL<b>THINGS</b>TALK</a> </h5>
-					</p>
+								class="fa fa-twitter"></i>
+							</a>
+					<a class="btn btn-social-icon btn-google-plus"> <i
+								class="fa fa-google-plus"></i>
+							</a>
+					<a class="btn btn-social-icon btn-linkedin"> <i
+								class="fa fa-linkedin"></i>
+							</a>
+					<a class="btn btn-social-icon btn-facebook"> <i
+								class="fa fa-facebook"></i>
+							</a>
 				</div>
-		</div>
-	</div>
-		
-			<p class="pull-left">&copy; SmartLiving <%- (new Date()).getFullYear() %></p>
-			<p class="pull-right">
-				This website was last updated at <%= @site.date.toISOString() %>
-			</p>
-		</footer>
-	</div><!-- /container -->
-
+			</div>
+		</div>				
+		<div class="container">
+		<br>
+			<div class="col-lg-6">
+				<div class="pull-left">&copy; SmartLiving <%- (new Date()).getFullYear() %></div>
+			</div>
+			<div class="col-lg-6">
+				<div class="pull-right">
+					<i>Powered by</i> <a href="http://www.allthingstalk.com">ALL<b>THINGS</b>TALK</a>
+				</div>
+			</div>
+		</div>		
+	</footer>
 	<!-- Scripts -->
 	<%- @getBlock('scripts').add(@site.scripts).toHTML() %>
 </body>
