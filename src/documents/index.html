@@ -14,9 +14,14 @@ title: 'Home'
 				</p>
 			</div>
 			<!-- /col-lg-6 -->
-			<div class="col-lg-6 mt centered" >
-					<br><br><br><br>
-					<button type="submit" class="btn btn-warning btn-lg">Register 	now</button>
+			<div class="col-lg-6 mt centered">
+				<br>
+				<br>
+				<br>
+				<br>
+				<button type="submit" class="btn btn-warning btn-lg"
+					onclick="document.getElementById('registerform').scrollIntoView(true);">Register
+					now</button>
 			</div>
 		</div>
 		<!-- /row -->
@@ -47,11 +52,12 @@ title: 'Home'
 		</div>
 	</div>
 	<!-- /row -->
-<hr>
+	<hr>
 	<div class="row mt centered">
 		<div class="col-lg-6">
-				<a class="btn btn-default" href="http://www.iminds.be/en"><img src="/images/logoIMINDS.png" width="180"/></a>
-		<h4>iMinds Research Labs</h4>
+			<a class="btn btn-default" href="http://www.iminds.be/en"><img
+				src="/images/logoIMINDS.png" width="180" /></a>
+			<h4>iMinds Research Labs</h4>
 			<p>iMinds is an independent research institute founded by the
 				Flemish government. The iMinds team offers companies and
 				organizations active support in research and development. It joins
@@ -61,7 +67,6 @@ title: 'Home'
 		<!--/col-lg-4 -->
 
 		<div class="col-lg-6">
-			<img src="assets/img/ser02.png" width="180" alt="">
 			<h4>Workshop registration</h4>
 			<p>Join us with an introduction to our Smart Living Solutions,
 				which aims to bring the Internet of Things to your home.</p>
@@ -71,62 +76,52 @@ title: 'Home'
 				get an insight on a movement which is said to be "Bigger than the
 				industrial revolution"!</p>
 
-			</div>
+		</div>
 		<!--/col-lg-4 -->
 	</div>
 	<!-- /row -->
+ 
+	<div class="registration" id="registerform">
 		<div class="row mt centered">
-		<div class="col-lg-3 col-lg-offset-3">
-			<form class="form-inline" role="form">
-				<div class="form-group">
-					<input type="email" class="form-control" id="forenameinput"
-						placeholder="First name">
-					<input type="email"
-						class="form-control" id="lastnameinput" placeholder="Last name">
-					<input type="email" class="form-control" id="emailinput"
-						placeholder="Email">
-					 <input type="email"
-						class="form-control" id="occupationinput" placeholder="Cccupation">
-				
-				</div>
-			</form>
-	</div>
-	<div class="col-lg-3">
-		<form class="form-inline" role="form">
-				<div class="form-group">				
-					<select class="form-control">
-						<option>iOS</option>
-						<option>Android</option>
-						<option>Windows phone</option>
-						<option>Blackberry</option>
-						<option>Other</option>
-					</select>
-     				<br>
-					 <label>
-     					Workshops</label>
-     		<br>
-     							 
-     				 <label>
-     				 	<input type="checkbox" value=""> Comfort
-					 </label>
-					
-					 <label>
-						  <input type="checkbox" value=""> Energy saving
-					 </label>
-					 <br>
-					 <label>
-					      <input type="checkbox" value=""> Protection
-					</label>
-					 <label>
-					      <input type="checkbox" value=""> Maker
-					</label>
-				</div>
-				<button type="submit" class="btn btn-warning btn-lg">Sign
-					me up!</button>
-			</form>
+		<h1>Register now</h1><br>
+			<div class="col-lg-3 col-lg-offset-3">
+				<form class="form-inline" role="form">
+					<div class="form-group">
+						<input type="email" class="form-control" id="forenameinput"
+							placeholder="First name"> <input type="email"
+							class="form-control" id="lastnameinput" placeholder="Last name">
+						<input type="email" class="form-control" id="emailinput"
+							placeholder="Email"> <input type="email"
+							class="form-control" id="occupationinput"
+							placeholder="Cccupation">
+
+					</div>
+				</form>
+			</div>
+			<div class="col-lg-3">
+				<form class="form-inline" role="form">
+					<div class="form-group">
+						<select class="form-control">
+							<option>iOS</option>
+							<option>Android</option>
+							<option>Windows phone</option>
+							<option>Blackberry</option>
+							<option>Other</option>
+						</select> <br> <label> Workshops</label> <br> <label> <input
+							type="checkbox" value=""> Comfort
+						</label> <label> <input type="checkbox" value=""> Energy
+							saving
+						</label> <br> <label> <input type="checkbox" value="">
+							Protection
+						</label> <label> <input type="checkbox" value=""> Maker
+						</label>
+					</div>
+					<button type="submit" class="btn btn-warning btn-lg">Sign
+						me up!</button>
+				</form>
+			</div>
 		</div>
 	</div>
-<hr>	
 </div>
 
 <!-- /container -->
