@@ -5,3 +5,19 @@
 			+ "/assets/js/manycontacts.min.js";
 
 }).call(this);
+
+$('div.regitration').block(
+		{
+			message: '<img src="/images/coming-soon.png" style width="140" height="140"/><br><h3>We are still perfecting a few things with the website so come back soon! </h3>',
+			css: { 	padding:    '20px',
+					margin:     '20px',
+					width:      '30%',
+					top:        '40%',
+					left:       '35%',
+					textAlign:  'center',
+					color:      '#000',
+					border:     '0px solid #aaa',
+					backgroundColor:'transparent',
+					cursor:     'default'
+				}
+		});
