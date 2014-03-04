@@ -108,7 +108,7 @@ hr {
 	width: 280px;
 }
 
-i {
+#headerwrap i {
 	margin: 8px;
 	color: #1B475A;
 }
@@ -159,7 +159,7 @@ i {
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-size: cover;
+	background-size: cover;			
 }
 
 #bannerwrap h1 {
@@ -171,6 +171,23 @@ i {
 	letter-spacing: 1px;
 }
 
+#bannerwrap h2 {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-size: 40px;
+	color: white;
+	font-weight: 300;
+	letter-spacing: 1px;
+}
+
+#bannerwrap .btn-lg {
+    padding: 18px 28px;
+    font-size: 25px; //change this to your desired size
+    line-height: normal;
+    -webkit-border-radius: 8px;
+       -moz-border-radius: 8px;
+            border-radius: 8px;
+}
 .registration {
 	border: 1px solid #ccc;
 	padding: 10px;
@@ -217,6 +234,7 @@ element.style {
 
 /*Footer Start*/
 #footer {
+	margin-top : 70px;
     width: 100%;        
 }
 .footer-top {
@@ -275,10 +293,42 @@ element.style {
     color: #ffffff;
 }
 .footer-bottom p {
-    padding: 18px 0 13px 14px;
     color: #ffffff;
+    margin-bottom: 1px;
+    font-size: 12px;
+    
 }
 .footer-bottom p a {
+	font-size: 12px;
     color: #ffffff;
 }
+
+.footer-bottom a:hover,a:focus {
+	color: #7b7b7b;
+	text-decoration: none;
+	outline: 0;
+}
+
+.footer-bottom a:before,a:after {
+	-webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+	-moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+	-ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+	-o-transition: color 0.1s ease-in, background 0.1s ease-in;
+	transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
 /*Footer End*/
+html,body {
+    height:100%;
+}
+.center{
+    display:inline-block;
+    vertical-align:middle;
+    margin-right:-4px;
+}
+
+.glyphicon{
+	font-size: 45px;
+	letter-spacing: 10px;
+	
+}

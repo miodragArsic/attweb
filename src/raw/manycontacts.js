@@ -6,13 +6,15 @@
 
 }).call(this);
 
+    $('#calltoaction').click( function() {
+    	console.log("hmm");
+    	$("html, body").animate({ scrollTop: $('#registerform').offset().top - 120 }, 1000);
+    });
+
 $('div.registration').block(
 		{
 			message: '	<div class="row mt centered"><img src="/images/coming-soon.png" style width="140" height="140"/><br><h3>Hold your horses!</h3><h4> We&#39;re not quite ready, leave your email and we&#39;ll keep you posted.</h4><form class="form-inline" role="form"><div class="form-group"><input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter your email address"></div> <button type="submit" class="btn btn-warning btn-lg">Get notified!</button></form>	',
-			css: { 	padding:    '20px',
-					margin:     '20px',
-					width:      '80%',
-					top:        '40%',
+			css: { 	width:      '80%',
 					left:       'auto',
 					right:      'auto',
 					textAlign:  'center',
@@ -20,5 +22,12 @@ $('div.registration').block(
 					border:     '0px solid #aaa',
 					backgroundColor:'transparent',
 					cursor:     'default'
-				}
+				},
+				
+			// styles for the overlay
+			overlayCSS:  {
+					backgroundColor:	'#1B475A',
+					opacity:			0.8,
+					cursor:				'default'
+				},
 		});
