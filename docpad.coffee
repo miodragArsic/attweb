@@ -52,10 +52,10 @@ docpadConfig = {
 			styles: [
 				"/styles/bootstrap-social.css"
 				"/styles/twitter-bootstrap.css"
-				"/styles/style.css"
 				"/styles/main.css"
-				"//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"				
-			
+				"/styles/style.css"
+				"//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"		
+				
 			]
 
 			# Scripts
