@@ -6,14 +6,15 @@
 
 }).call(this);
 
-$('div.regitration').block(
+$('div.registration').block(
 		{
-			message: '<img src="/images/coming-soon.png" style width="140" height="140"/><br><h3>We are still perfecting a few things with the website so come back soon! </h3>',
+			message: '	<div class="row mt centered"><img src="/images/coming-soon.png" style width="140" height="140"/><br><h3>Hold your horses!</h3><h4> We&#39;re not quite ready, leave your email and we&#39;ll keep you posted.</h4><form class="form-inline" role="form"><div class="form-group"><input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter your email address"></div> <button type="submit" class="btn btn-warning btn-lg">Get notified!</button></form>	',
 			css: { 	padding:    '20px',
 					margin:     '20px',
-					width:      '30%',
+					width:      '80%',
 					top:        '40%',
-					left:       '35%',
+					left:       'auto',
+					right:      'auto',
 					textAlign:  'center',
 					color:      '#000',
 					border:     '0px solid #aaa',

@@ -6,23 +6,21 @@
  * Version: 1.0
  * URL: http://blacktie.co
  */
-
 body {
-  background-color: #f2f2f2;
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    font-size: 16px;
-    color: #555;
-
-    -webkit-font-smoothing: antialiased;
-    -webkit-overflow-scrolling: touch;
+	background-color: #f2f2f2;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	color: #555;
+	-webkit-font-smoothing: antialiased;
+	-webkit-overflow-scrolling: touch;
 }
 
 /* Titles */
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    color: #333;
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	color: #333;
 }
 
 h1 {
@@ -42,50 +40,47 @@ h4 {
 
 /* Paragraph & Typographic */
 p {
-    line-height: 28px;
-    margin-bottom: 25px;
-    font-size: 16px;
+	line-height: 28px;
+	margin-bottom: 25px;
+	font-size: 16px;
 }
 
 .centered {
-    text-align: center;
+	text-align: center;
 }
 
 /* Links */
 a {
-    color: #1B475A;
-    word-wrap: break-word;
-
-    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
-    transition: color 0.1s ease-in, background 0.1s ease-in;
+	color: #1B475A;
+	word-wrap: break-word;
+	-webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+	-moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+	-ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+	-o-transition: color 0.1s ease-in, background 0.1s ease-in;
+	transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
-a:hover,
-a:focus {
-    color: #7b7b7b;
-    text-decoration: none;
-    outline: 0;
+a:hover,a:focus {
+	color: #7b7b7b;
+	text-decoration: none;
+	outline: 0;
 }
 
-a:before,
-a:after {
-    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
-    transition: color 0.1s ease-in, background 0.1s ease-in;
+a:before,a:after {
+	-webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+	-moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+	-ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+	-o-transition: color 0.1s ease-in, background 0.1s ease-in;
+	transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
- hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
 }
 
 .navbar-default {
@@ -97,12 +92,11 @@ a:after {
 	color: white;
 }
 
-.navbar-default .navbar-nav > li > a {
+.navbar-default .navbar-nav>li>a {
 	color: white;
 }
 
 /* Helpers */
-
 .mt {
 	margin-top: 40px;
 	margin-bottom: 40px;
@@ -116,30 +110,27 @@ a:after {
 
 i {
 	margin: 8px;
-	color: #1B475A; 
+	color: #1B475A;
 }
-
 
 /* HeaderWrap */
 #headerwrap {
 	/* background: url(../img/bg01.jpg) no-repeat center top; */
 	background-color: #3498db;
 	margin-top: -20px;
-	padding-top:200px;
+	padding-top: 200px;
 	background-attachment: relative;
 	background-position: center center;
 	min-height: 650px;
 	width: 100%;
-	
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
-
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 #headerwrap h1 {
@@ -158,22 +149,21 @@ i {
 	margin-top: -20px;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 200px;
+	min-height: 10px;
 	width: 100%;
-	
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
-
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+	color: #EEE;
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 #bannerwrap h1 {
-	margin-top: 60px;
+	margin-top: 15px;
 	margin-bottom: 15px;
 	color: white;
 	font-size: 45px;
@@ -181,8 +171,114 @@ i {
 	letter-spacing: 1px;
 }
 
-.registration
-{
-	border:1px solid #ccc;
-	padding:10px;
+.registration {
+	border: 1px solid #ccc;
+	padding: 10px;
 }
+
+/*FOOTER TESTING*/
+element.style {
+	
+}
+
+.footer-wrapper {
+	background: transparent url("/images/dark_tissue.png") top left repeat;
+}
+
+.footer-wrapper {
+	padding-top: 17px;
+}
+
+user agent stylesheetdiv {
+	display: block;
+}
+
+body {
+	font-family: 'Raleway', Arial, sans-serif;
+	font-size: 14px;
+	line-height: 30px;
+	color: #666666;
+}
+
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	color: #333333;
+}
+
+html {
+	font-size: 100%;
+}
+
+element.style {
+}
+
+
+/*Footer Start*/
+#footer {
+    width: 100%;        
+}
+.footer-top {
+    height: 10px;
+    background-color: #898989;
+}
+.footer-wrapper {
+    padding-top: 17px;
+}
+.footer-bottom {
+    background-color: #333333;
+}
+.footer-logo {
+    margin-bottom: 20px;
+}
+.footer-wrapper .address {
+    padding-left: 15px;
+}
+.footer-wrapper .address p {
+    margin-bottom: 5px;
+    color: #cbcbcb;
+    padding: 0;
+}
+.footer-wrapper .address p i {
+    display: block;
+    float: left;
+    line-height: 20px;
+    width: 30px;
+}
+.footer-wrapper h4 {
+    border-bottom: 1px solid #CBCBCB;
+    color: #CBCBCB;
+    font-size: 18px;
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+}
+.footer-wrapper .span4 {        
+    margin-bottom: 30px;
+}
+.footer-wrapper .footer-right h4, .footer-wrapper .footer-center h4 {
+    margin-bottom: 0;
+}
+.footer-navigate {
+    list-style: none;
+    margin-left: 0;
+}
+.footer-center p {
+    color: #cbcbcb;
+    padding: 12px 0 0;
+}
+.footer-navigate li {
+    border-bottom: 1px solid #898989;
+    padding: 5px 0;
+}
+.footer-navigate li a {
+    color: #ffffff;
+}
+.footer-bottom p {
+    padding: 18px 0 13px 14px;
+    color: #ffffff;
+}
+.footer-bottom p a {
+    color: #ffffff;
+}
+/*Footer End*/
