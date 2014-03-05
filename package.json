@@ -41,6 +41,7 @@
     "docpad-plugin-stylus": "~2.5.0",
     "docpad-plugin-text": "~2.3.2",
     "docpad-plugin-raw": "~2.3.2",
+    "docpad-plugin-partials": "~2.9.0",
     "font-awesome": "~4.0.3",
     "docpad-plugin-minicms": "~2.1.10"
   },
