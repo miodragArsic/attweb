@@ -2,6 +2,13 @@
 # It is simply a CoffeeScript Object which is parsed by CSON
 docpadConfig = {
 
+	 # Layouts Paths
+    # An array of paths which contents will be treated as layouts
+    # If it is a relative path, it will have the resolved `srcPath` prepended to it
+    layoutsPaths: [  # default
+        'layouts'
+    ]
+
 	# =================================
 	# Template Data
 	# These are variables that will be accessible via our templates
@@ -25,8 +32,7 @@ docpadConfig = {
 
 			# Here are some old site urls that you would like to redirect from
 			oldUrls: [
-				'www.website.com',
-				'website.herokuapp.com'
+				'smartliving.herokuapp.com'
 			]
 
 			# The default title of our website
@@ -55,8 +61,7 @@ docpadConfig = {
 				"/styles/bootstrap-social.css"
 				"//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"		
 				"/styles/main.css"
-				
-				
+				"//fonts.googleapis.com/css?family=Bad+Script"				
 			]
 
 			# Scripts
@@ -65,8 +70,8 @@ docpadConfig = {
 				"//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"
 				"/vendor/twitter-bootstrap/dist/js/bootstrap.min.js"
 				"/scripts/script.js"				
-				"jquery.blockUI.js"
-				"manycontacts.js"
+				"/scripts/jquery.blockUI.js"
+				"/scripts/manycontacts.js"
 			]
 
 
