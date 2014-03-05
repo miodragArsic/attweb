@@ -6,10 +6,20 @@
 
 }).call(this);
 
-    $('#calltoaction').click( function() {
-    	console.log("hmm");
-    	$("html, body").animate({ scrollTop: $('#registerform').offset().top - 120 }, 1000);
-    });
+
+$('#cta').hide().fadeIn(2500);
+
+$('#ctaButton').click( function() {
+	$("html, body").animate({ scrollTop: $('#workshopRegisterForm').offset().top - 120 }, 1000);
+});
+
+$('#workshopDetailsLink').click( function() {
+	$("html, body").animate({ scrollTop: $('#workshopDetails').offset().top - 30 }, 1000);
+});
+
+$('#welcomelogo').click( function() {
+	$("html, body").animate({ scrollTop: $('#solutions').offset().top - 20 }, 1000);
+});
 
 $('div.registration').block(
 		{

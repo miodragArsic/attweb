@@ -55,8 +55,7 @@ docpadConfig = {
 				"/styles/bootstrap-social.css"
 				"//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"		
 				"/styles/main.css"
-				
-				
+				"//fonts.googleapis.com/css?family=Bad+Script"				
 			]
 
 			# Scripts
