@@ -28,12 +28,13 @@ docpadConfig = {
 		# Specify some site properties
 		site:
 			# The production url of our website
-			# url: "http://smartliving.io"
+			url: "http://smartliving.io"
 
 			# Here are some old site urls that you would like to redirect from
-			#oldUrls: [
-			#	'smartliving.herokuapp.com'
-			#]
+			oldUrls: [
+				'www.website.com',
+				'website.herokuapp.com'
+			]
 
 			# The default title of our website
 			title: "smartliving.io | Connecting people and machines building the Internet of Things"
