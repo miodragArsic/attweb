@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Meta -->
+	<meta charset="utf-8" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+	<!-- Use the .htaccess and remove these lines to avoid edge case issues.
+		 More info: h5bp.com/i/378 -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+	<!-- Our site title and description -->
+	<title><%= @getPreparedTitle() %></title>
+	<meta name="description" content="<%= @getPreparedDescription() %>" />
+	<meta name="keywords" content="<%= @getPreparedKeywords() %>" />
+	<meta name="author" content="<%= @site.author or '' %>" />
+
+	<!-- Output DocPad produced meta elements -->
+	<%- @getBlock('meta').toHTML() %>
+
+	<!-- Mobile viewport optimized: h5bp.com/viewport -->
+	<meta name="viewport" content="width=device-width" />
+
+	<!-- Icons -->
+		<link rel="shortcut icon" href="images/icons/favicon.ico">
+		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/icons/apple-touch-icon-144-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/icons/apple-touch-icon-114-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/icons/apple-touch-icon-72-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" href="images/icons/apple-touch-icon-57-precomposed.png">
+
+	<!-- Shims: IE6-8 support of HTML5 elements -->
+	<!--[if lt IE 9]>
+		<script async src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Styles -->
+	<%- @getBlock('styles').add(@site.styles).toHTML() %>
+</head>
+<body>
+	<!-- Menu -->
+	<div class="navbar navbar-inverse navbar-fixed-top">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="/"><b>SMART</b>LIVING</a>
+			</div>
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav">
+					<% for document in @getCollection('pages').toJSON(): %>
+						<li
+							typeof="sioc:Page"
+							about="<%= document.url %>"
+							class="<%= 'active'	if @document.url is document.url %>"
+						>
+							<a href="<%= document.url %>" property="dc:title">
+								<%= document.title %>
+							</a>
+						</li>
+					<% end %>
+				</ul>
+			</div><!--/.navbar-collapse -->
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+
+				<h1><%= @document.title %></h1>
+				<!-- Content -->
+				<section id="content" class="content"><%- @content %></section>
+			</div>
+		</div>
+	</div>
+
+
+	<footer id="footer">
+		<div class="footer-top"></div>
+		<div class="footer-wrapper">
+			<div class="container">
+				<div class="row">
+					<div class="row show-grid">
+						<div class="span12">
+							<div class="col-lg-2">
+
+								<div class="span4 footer-right">
+									<h4 class="center-title">Navigate</h4>
+									<ul class="footer-navigate">
+										<li><a href="../">Home</a></li>
+										<li><a href="../generic/about">About us</a></li>
+										<li><a href="">Contact</a></li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="col-lg-9"></div>
+							<div class="col-lg-1 ">
+								<div class="pull-right">
+									<a class="btn btn-social-icon btn-twitter"> <i
+										class="fa fa-twitter"></i>
+									</a> <a class="btn btn-social-icon btn-google-plus"> <i
+										class="fa fa-google-plus"></i>
+									</a> <a class="btn btn-social-icon btn-linkedin"> <i
+										class="fa fa-linkedin"></i>
+									</a> <a class="btn btn-social-icon btn-facebook"> <i
+										class="fa fa-facebook"></i>
+									</a>
+								</div>
+							</div>
+
+
+							<!-- FOOTER: NAVIGATION LINKS -->
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<div class="container">
+					<div class="row show-grid">
+						<!-- FOOTER: COPYRIGHT TEXT -->
+						<div class="span6">
+							<div class="container">
+								<div class="col-lg-6">
+									<div class="pull-left">
+										<p>&copy; SmartLiving <%- (new Date()).getFullYear() %>
+									</div>
+									</p>
+								</div>
+								<div class="col-lg-6">
+									<div class="pull-right">
+										<p>
+											Powered by <a href="http://www.allthingstalk.com">ALL<b>THINGS</b>TALK
+											</a>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+	</footer>
+
+
+	<!-- Scripts -->
+	<%- @getBlock('scripts').add(@site.scripts).toHTML() %>
+</body>
+</html>

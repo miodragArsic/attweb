@@ -1,14 +1,7 @@
 ---
 layout: default
 ---
-
 	<div class="container">
-		<div class="row">
-			<div class="col-lg-12">
-
-				<h1><%= @document.title %></h1>
-				<!-- Content -->
-				<section id="content" class="content"><%- @content %></section>
-			</div>
-		</div>
+	<h1><%= @document.title %></h1>
+		<section id="content" class="content"><%- @content %></section>
 	</div>

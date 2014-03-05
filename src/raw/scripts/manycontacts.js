@@ -10,7 +10,7 @@
 $('#cta').hide().fadeIn(2500);
 
 $('#ctaButton').click( function() {
-	$("html, body").animate({ scrollTop: $('#workshopRegisterForm').offset().top - 120 }, 1000);
+	$("html, body").animate({ scrollTop: $('#workshopRegisterForm').offset().top - 110 }, 1000);
 });
 
 $('#workshopDetailsLink').click( function() {
