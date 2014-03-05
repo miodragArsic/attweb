@@ -25,8 +25,7 @@ docpadConfig = {
 
 			# Here are some old site urls that you would like to redirect from
 			oldUrls: [
-				'www.website.com',
-				'website.herokuapp.com'
+				'smartliving.herokuapp.com'
 			]
 
 			# The default title of our website
@@ -64,8 +63,8 @@ docpadConfig = {
 				"//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"
 				"/vendor/twitter-bootstrap/dist/js/bootstrap.min.js"
 				"/scripts/script.js"				
-				"jquery.blockUI.js"
-				"manycontacts.js"
+				"/scripts/jquery.blockUI.js"
+				"/scripts/manycontacts.js"
 			]
 
 
