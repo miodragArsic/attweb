@@ -2,6 +2,13 @@
 # It is simply a CoffeeScript Object which is parsed by CSON
 docpadConfig = {
 
+	 # Layouts Paths
+    # An array of paths which contents will be treated as layouts
+    # If it is a relative path, it will have the resolved `srcPath` prepended to it
+    layoutsPaths: [  # default
+        'layouts'
+    ]
+
 	# =================================
 	# Template Data
 	# These are variables that will be accessible via our templates

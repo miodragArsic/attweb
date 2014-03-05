@@ -295,13 +295,20 @@ element.style {
     color: #cbcbcb;
     padding: 12px 0 0;
 }
+
 .footer-navigate li {
     border-bottom: 1px solid #898989;
     padding: 5px 0;
 }
-.footer-navigate li a {
+
+.footer-navigate a {
     color: #ffffff;
 }
+
+.footer-navigate li:hover{
+    background: #111;
+}
+
 .footer-bottom p {
     color: #ffffff;
     margin-bottom: 1px;

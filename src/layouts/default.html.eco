@@ -83,9 +83,12 @@
 								<div class="span4 footer-right">
 									<h4 class="center-title">Navigate</h4>
 									<ul class="footer-navigate">
-										<li><a href="../">Home</a></li>
-										<li><a href="../generic/about">About us</a></li>
-										<li><a href="">Contact</a></li>
+
+										<div class="hover-div">
+											<a href="../"><li>Home</li></a>
+											<a href="/generic/about"><li>About us</li></a>
+											<a href="/generic/contact"><li>Contact</li></a>
+										</div>
 									</ul>
 								</div>
 							</div>
