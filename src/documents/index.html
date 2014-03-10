@@ -1,29 +1,31 @@
 ---
 layout: 'default'
-title: 'Home'
+title: 'Welcome'
 ---
+<a href="#" class="back-to-top"><img class="img-circle" src="/images/arrow.png" width="20" alt="Energy saving">
+</a>
   <div class="alert-message info" id="cta">
     <a class="close" href="#" onclick="$('#cta').hide()">×</a>
     	<div class="container">
 		<div class="row">
 			<div class="col-lg-6 ">
-				<h2>Discover the Internet of Things</h2>
+				<h3>Discover the Internet of Things</h3>
 				<p>
 					Join us for a hands on <i>'Do it Yourself Internet of
-						Things'</i> workshop, totally <b>free</b>, no programming
-					experience required. <a href="#" id="workshopDetailsLink">Read
-						more...</a>
+						Things'</i> workshop, totally free, no programming
+					experience required. <a href="#" id="workshopDetailsLink"> More
+						info...</a>
 				</p>
 				<br>
 				<p>
-					<i><b>Next workshop:</b> iMinds Research Labs, Gent, BE. 26/04/2014</i>
+					<i><b>Workshop One:</b> iMinds Research Labs, Gent, Belgium. 26/04/2014</i>
 				</p>
 			</div>
 			<!-- /col-lg-6 onclick="document.getElementById('registerform').scrollIntoView(false);"	-->
-			<div class="col-lg-6 mt centered">
+			<div class="col-lg-6 centered">
 				<div class="center">
 					<button id="ctaButton" type="submit"
-						class="btn btn-default btn-lg">Register now</button>
+						class="btn btn-default btn-xlg">Sign up for workshop</button>
 				</div>
 			</div>
 		</div>
@@ -33,8 +35,8 @@ title: 'Home'
   </div>
 <div id="headerwrap">
 	<div class="container" id="banner">
-		<div class="row mt centered">
-			<a href="#" id="welcomelogo">
+		<div class="row mt centered" id="welcomelogo">
+			<a href="#" >
 				<div class="col-lg-6 col-lg-offset-3">
 					<h1>Smart Living</h1>
 					<h2>Elegant. Simple. Intelligent.</h2>
@@ -49,58 +51,100 @@ title: 'Home'
 	<div class="row mt centered">
 		<div class="col-lg-6 col-lg-offset-3">
 			<h1>Smart Living Solutions</h1>
-			<h3>Designed to work with you, merging high performance 
-				and ultimate usability to suite any home.</h3>
-		</div>
+			
+			<h3>Enabling a smarter life through connected devices and autonomous decision making.</h3>
+			
+<!--		<p>Custom kits solving life's everyday problems, provide peace of mind and the most out of your things.</p>
+  -->	</div>
 	</div>
 	<!-- /row -->
 
 	<div class="row mt centered">
 		<div class="col-lg-4">
-			<img class="img-circle" src="assets/img/ebulb.png" width="140" alt="">
+			<img class="img-circle" src="/images/ebulb.png" width="140" alt="Energy saving">
 			<h4>Energy Saving</h4>
-			<p>Revitalise traditional heating and lighting
-				systems and other electrical appliances, to work efficiently and
-				better understand your usage.</p>
-			<p>
-				<i class="glyphicon glyphicon-cloud"></i> <i
-					class="glyphicon glyphicon-phone"></i> <i
-					class="glyphicon glyphicon-leaf"></i>
-			</p>
+			<p>Intelligent control of your electrical appliances, helping you reducing costs, save the environment and understand your usage.</p>
+						
+		<!-- <i class="glyphicon glyphicon-cloud"></i>
+				Smarter thermostat - Control conditions in individuals room
+				<br>
+				<i class="glyphicon glyphicon-phone"></i>
+				Preference based control - Perfect temperature for each of your family
+				<br>
+				<i class="glyphicon glyphicon-leaf"></i>
+				 No more waste - Make the most of off peak pricing and set rules to limit heavy-consuming appliances
+				<br> -->
 		</div>
 		<!--/col-lg-4 -->
 
 		<div class="col-lg-4">
-			<img class="img-circle" src="assets/img/padlock.png" width="140"
-				alt="">
+			<img class="img-circle" src="/images/padlock.png" width="140"
+				alt="Protected">
 			<h4>Protection</h4>
-			<p>Keeping your home safe and secure, configure real scenarios
+			<p>Keep your home safe and secure, configure real scenarios
 				and alerts based on environmental readings and user
 				preferences.</p>
-			<p>
-				<i class="glyphicon glyphicon-flash"></i> <i
+			
+			<!-- <i class="glyphicon glyphicon-flash"></i> <i
 					class="glyphicon glyphicon-record"></i> <i
 					class="glyphicon glyphicon-globe"></i>
-			</p>
+			-->
 		</div>
 		<!--/col-lg-4 -->
 
 		<div class="col-lg-4">
-			<img class="img-circle" src="assets/img/comfort.png" width="140" alt="">
+			<img class="img-circle" src="/images/comfort.png" width="140" alt="Comfort">
 			<h4>Comfort</h4>
-			<p>Enhance the way you enjoy your home through automation and media, control visual, audio and many more appliances.</p>
 			<p>
+				Ease your lifestyle with scheduled tasks to complete your housework, tend the garden or have the perfect morning.
+			</p>
+			<!-- 
 				<i class="glyphicon glyphicon-cloud-download"></i> <i
 					class="glyphicon glyphicon-phone"></i> <i
 					class="glyphicon glyphicon-globe"></i>
-			</p>
+				-->		
 		</div>
 		<!--/col-lg-4 -->
 	</div>
 	<!-- /row -->
+	<hr>
+	<div class="row mt centered">
+		<div class="col-lg-6 col-lg-offset-3">
+			<h1>Makers</h1>
+			<h3>
+				Extend your solutions with your own creations using microcontrollers and other gizmos. The only limits are your imagination.
+			</h3>
+		</div>
+	</div>
+	<div class="row mt centered">
+
+		<div class="col-lg-4 col-lg-offset-1">
+			<img class="img-circle" src="/images/embedded.jpg" width="140"
+				alt="Comfort">
+			<h4>Connectivity</h4>
+			<p>We've made it easy to connect your own things, with the common langauges and hardware you know and love. Simple configuration for Arduino, Raspberry Pi, BeagleBone and many more.</p>
+			
+			<!-- 	<i class="glyphicon glyphicon-cloud-download"></i> <i
+					class="glyphicon glyphicon-phone"></i> <i
+					class="glyphicon glyphicon-globe"></i>-->
+		</div>
+		<div class="col-lg-4 col-lg-offset-2">
+			<img class="img-circle" src="/images/protocol.png" width="140"
+				alt="Comfort">
+			<h4>Technologies</h4>
+			<p>
+				Cutting edge web technologies and 'Internet of Things' protocols for fast and efficient control of management and telemetry services using RESTful, MQTT, CoAP and many more technoligies.
+			</p>
+			<!-- <i class="glyphicon glyphicon-cloud-download"></i> <i
+					class="glyphicon glyphicon-phone"></i> <i
+					class="glyphicon glyphicon-globe"></i>
+			-->
+		</div>
+	</div>
+	<!-- /row -->
+<hr>
 </div>
 <!-- /container -->
-<hr>
 <div class="container" id="workshopDetails">
 	<div class="row mt centered">
 		<div class="col-lg-6 col-lg-offset-3">
@@ -108,36 +152,52 @@ title: 'Home'
 				Do It Yourself<br />Internet of Things
 			</h1>
 			<h3>
-				Join us with an introduction to our Smart Living Solutions,
-				which aims to bring the Internet of Things to your home.
+				Discover the 'Internet of Things', get involved with our workshop events, DIY projects and join our maker community to see the possibilities of Smart Living Solutions.
 			</h3>
 		</div>
 	</div>
 	<!-- /row -->
 	<div class="row mt centered">
-		<div class="col-lg-6">
-			<a class="btn btn-default" href="http://www.iminds.be/en"><img
-				src="/images/logoIMINDS.png" width="180" /></a>
-			<h4>iMinds Research Labs</h4>
-			<p>iMinds is an independent research institute founded by the
-				Flemish government. The iMinds team offers companies and
-				organizations active support in research and development. It joins
-				various forces on research projects. Both technical and
-				non-technical issues are addressed within each of these projects.</p>
-		</div>
-		<!--/col-lg-4 -->
-
-		<div class="col-lg-6">
-			<h1><i>#</i>DIYIOT</h1>
-			<p>Join us for an introduction to Smart Living Solutions,
-				bringing the Internet of Things to your home.</p>
-			<p> Totally free, hands on workshops, no programming
-					experience required and open to everyone. Don't miss out on this opportunity to
+		<div class="col-lg-1"></div>
+		<div class="col-lg-5">
+			<a class="btn btn-default"
+				href="https://twitter.com/search?q=DIYIOT&src=tren">
+				<h1 class="min">
+					<i>#</i>DIYIOT
+				</h1>
+			</a>
+			<p>
+				<br>Join us for an introduction to Smart Living Solutions,
+				bringing the Internet of Things to your home.
+			</p>
+		
+			<h4>Workshops</h4>
+			<p>Totally free, hands on workshops, no programming experience
+				required and open to everyone. Don't miss out on this opportunity to
 				get an insight on a movement which is said to be "Bigger than the
 				industrial revolution"!</p>
-
 		</div>
-		<!--/col-lg-4 -->
+
+		<div class="col-lg-1"></div>
+		<div class="col-lg-1"></div>
+
+		<div class="col-lg-5">
+			<a class="btn btn-default" href="http://www.iminds.be/en"><img
+				src="/images/logoIMINDS.png" width="180"
+				alt="iMinds Research institute" /></a>
+
+			<p>
+				<br> In coordination with iMinds, an independent research
+				institute founded by the Flemish government. The iMinds team will be
+				supporting our #DIYIOT initative providing the perfect environment to
+				host our workshops and spread the word.
+			</p>
+			
+			<h4>Events</h4>
+			<p>
+					<i><b>Workshop One:</b> iMinds Research Labs, Gent, Belgium. 26/04/2014</i>
+			</p>
+		</div>
 	</div>
 	<!-- /row -->
 

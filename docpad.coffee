@@ -37,42 +37,41 @@ docpadConfig = {
 			]
 
 			# The default title of our website
-			title: "smartliving.io | Connecting people and machines building the Internet of Things"
+			title: "smartliving | Connecting people & machines building the Internet of Things"
 
 			# The website description (for SEO)
 			description: """
-				When your website appears in search results in say Google, the text here will be shown underneath your website's title.
-				"""
+				Connect. Automate. Enjoy. Enabling a smarter life through connected devices and autonomous decision making.
+			"""
 
 			# The website keywords (for SEO) separated by commas
 			keywords: """
-				place, your, website, keywoards, here, keep, them, related, to, the, content, of, your, website
+				Internet, of, Things, Smartlife, smartliving, smarthome, IoT, M2M, energy, saving, technology
 				"""
 
 			# The website author's name
-			author: "Your Name"
+			author: "Tom Collins"
 
 			# The website author's email
-			email: "your@email.com"
+			email: "tc@allthingstalk.com"
 
 			# Styles
 			styles: [
 				"/styles/twitter-bootstrap.css"
 				"/styles/style.css"
-				"/styles/bootstrap-social.css"
-				"//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"		
-				"/styles/main.css"
+				"/css/bootstrap-social.css"
+				"/css/font-awesome.css"		
+				"/css/main.css"
 				"//fonts.googleapis.com/css?family=Bad+Script"				
 			]
 
 			# Scripts
 			scripts: [
-				"//cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"
-				"//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"
+				"/js/jquery.min.js"
+				"/js/modernizr.min.js"
 				"/vendor/twitter-bootstrap/dist/js/bootstrap.min.js"
-				"/scripts/script.js"				
-				"/scripts/jquery.blockUI.js"
-				"/scripts/manycontacts.js"
+				"/js/jquery.blockUI.js"
+				"/js/main.js"
 			]
 
 
@@ -137,7 +136,7 @@ docpadConfig = {
 
             # Implement the logic you want for authentication
             auth: (login, password, callback) ->
-                if login is 'admin' and password is 'password'
+                if login is 'radmin' and password is 'bassword'
                     callback null, true
                 else
                     callback "Invalid login or password.", false

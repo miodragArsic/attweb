@@ -34,9 +34,12 @@ h2{
 	font-family: 'Bad Script', cursive;
 }
 
-h3 {
-	color: #95a5a6;
-	font-weight: 400;
+.alert-message h3{
+	color: 333;
+	font-weight: 250;
+	letter-spacing: 1px;
+	font-family: 'Bad Script', cursive;
+	margin: 3px;
 }
 
 h4 {
@@ -123,11 +126,12 @@ hr {
 
 /* HeaderWrap */
 #headerwrap {
-	background: url(../images/eic.png) no-repeat center top;
+	background: url(../images/eic.png) no-repeat center top;/*,linear-gradient(to bottom, rgba(255,255,255,0.88) 0%,rgba(243,243,243,0.88) 95%,rgba(242,242,242,1) 100%); /* W3C */
+/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0ffffff', endColorstr='#f2f2f2',GradientType=0 ); /* IE6-9 */
+	
 	background-size: 100%;
-	background-color: #f2f2f2;
+	background-color: #FFF;
 	margin-top: -20px;
-	padding-top: 200px;
 	background-attachment: relative;
 	background-position: center center;
 	min-height: 650px;
@@ -141,6 +145,14 @@ hr {
 	-o-background-size: cover;
 	background-size: cover;
 	
+/*background: -moz-linear-gradient(top,  rgba(242,242,242,0) 0%, rgba(242,242,242,0.6) 93%, rgba(242,242,242,0.64) 99%, rgba(242,242,242,0.65) 100%); /* FF3.6+ */
+/*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(242,242,242,0)), color-stop(93%,rgba(242,242,242,0.6)), color-stop(99%,rgba(242,242,242,0.64)), color-stop(100%,rgba(242,242,242,0.65))); /* Chrome,Safari4+ */
+/*background: -webkit-linear-gradient(top,  rgba(242,242,242,0) 0%,rgba(242,242,242,0.6) 93%,rgba(242,242,242,0.64) 99%,rgba(242,242,242,0.65) 100%); /* Chrome10+,Safari5.1+ */
+/*background: -o-linear-gradient(top,  rgba(242,242,242,0) 0%,rgba(242,242,242,0.6) 93%,rgba(242,242,242,0.64) 99%,rgba(242,242,242,0.65) 100%); /* Opera 11.10+ */
+/*background: -ms-linear-gradient(top,  rgba(242,242,242,0) 0%,rgba(242,242,242,0.6) 93%,rgba(242,242,242,0.64) 99%,rgba(242,242,242,0.65) 100%); /* IE10+ */
+/*background: linear-gradient(to bottom,  rgba(242,242,242,0) 0%,rgba(242,242,242,0.6) 93%,rgba(242,242,242,0.64) 99%,rgba(242,242,242,0.65) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00f2f2f2', endColorstr='#a6f2f2f2',GradientType=0 ); /* IE6-9 */
+	
 }
 
 #headerwrap h1 {
@@ -153,11 +165,24 @@ hr {
 	font-family: 'Bad Script', cursive;
 }
 
+.min {
+	font-size: 46px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	color: #333;
+}
+
 #headerwrap h2 {
 	color: 333;
 	font-weight: 300;
 	letter-spacing: 1px;
 	font-family: 'Bad Script', cursive;
+}
+
+#welcomelogo {
+	margin-top: 20%;
 }
 
 /* HeaderWrap */
@@ -425,7 +450,9 @@ html,body {
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
   border-color: #339bb9 #339bb9 #22697d;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-  opacity: 0.7;
+  opacity: 1.0;
+  
+  z-index:1000;
  }
  
 #cta p {
@@ -438,7 +465,7 @@ html,body {
 .close {
   float: right;
   color: #000000;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bold;
   line-height: 13.5px;
   text-shadow: 0 1px 0 #ffffff;
@@ -507,4 +534,20 @@ html,body {
 }
 .alert-message p {
   margin-bottom: 0;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 2em;
+    right: 0px;
+    text-decoration: none;
+    color: #000000;
+    background-color: rgba(235, 235, 235, 0.80);
+    font-size: 12px;
+    padding: 1em;
+    display: none;
+}
+
+.back-to-top:hover {    
+    background-color: rgba(135, 135, 135, 0.50);
 }
