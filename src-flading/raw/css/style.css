@@ -138,7 +138,7 @@ p a:hover {
 
 .button {
     border: 1px solid rgba(255, 255, 255,0.2);
-    color: #FFFFFF;
+    color: #FFF;
     font-family: 'latolight', sans-serif;
     text-transform: uppercase;
     padding:15px 20px;
@@ -148,8 +148,8 @@ p a:hover {
     text-align: center;}
 
 .button:hover {
-	background: #1abc9c;
-	border: #1abc9c;
+	background: #26B4DA;
+	border: #26B4DA;
 	color:#FFF;
 	 -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
@@ -181,7 +181,13 @@ p a:hover {
 	
 /* 03. HEADER SECTION ================================================== */
 
+#tool_menu a {
+	color: #CCC;
+}
 
+#tool_menu a:hover {
+	color: #34495e;	
+}
 
 /* Header Generals  */
 
@@ -190,7 +196,7 @@ p a:hover {
 	height:100%;
 	min-height: 650px;
 	color:#FFF;
-	background:url('#') #363f48 no-repeat center center fixed; 
+	background:url('/img/hero_back.jpg') #363f48 no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -199,7 +205,7 @@ p a:hover {
 
 
 #header .logo { 
-	margin-top: 5%;
+	margin-top: 2%;
 	margin-bottom: 5% }
 
 #header h2 {
@@ -216,7 +222,8 @@ p a:hover {
 /* IMINDS SHOUT ======================================================*/
 
 #iminds_shout {
-	background: url('#') #195969 no-repeat center center fixed;
+	background: url('#') #FFF no-repeat center center fixed;
+	background-color:rgba(0,0,0,0.25);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -231,7 +238,9 @@ p a:hover {
   	margin-top: 0.33em; }
 
 #iminds_shout p {
-	color: #9DA5AF;
+	color: #F0F0F0;
+	font-size: 1.2em;
+  	font-family: 'latolight', sans-serif;
 }
 
 	
