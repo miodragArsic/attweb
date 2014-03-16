@@ -2,7 +2,14 @@
 # It is simply a CoffeeScript Object which is parsed by CSON
 docpadConfig = {
 
-	 # Layouts Paths
+    # Src Path
+    # Where can we find our source website files?
+    # If it is a relative path, it will have the resolved `rootPath` prepended to it
+    # srcPath: 'src'  # default
+    srcPath: 'src-flading'
+
+
+	# Layouts Paths
     # An array of paths which contents will be treated as layouts
     # If it is a relative path, it will have the resolved `srcPath` prepended to it
     layoutsPaths: [  # default
