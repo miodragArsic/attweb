@@ -32,7 +32,7 @@ $( document ).ready(function() { // Document ready
 /*-----------------------------------------------------------------------------------*/
 	
 
-$('.button').click(function(e){
+$('#cta-scroll').click(function(e){
     $('html,body').scrollTo(this.hash,this.hash);
     e.preventDefault();
 });
