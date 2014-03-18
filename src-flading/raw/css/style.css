@@ -59,7 +59,21 @@
 	
 /* 02. GENERALS SETTINGS ================================================== */
 
+/* Colors */
 
+.dark-blue {
+	color: #1B475A;
+}
+
+.light-blue {
+	color: #26B4DA;
+}
+.green {
+	color: #95C546;
+}
+.orange {
+	color: #EC6730;
+}
 
 /* Selected text Color */
 
@@ -156,6 +170,12 @@ p a:hover {
     -ms-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+	font-size: 140px !important;
+	margin-left: 0 !important;
+}
+
 
 /* FOR FADING : DON'T REMOVE IT */
 
