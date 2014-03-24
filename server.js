@@ -13,40 +13,6 @@ app.configure(function(){
 var port = Number(process.env.PORT || 8080);
 var server = http.createServer(app).listen(port);
 
-
-
-// Add DocPad to our Application
-var docpadInstanceConfiguration = {
-	// Give it our express application and http server
-	//		action: 'load ready generate',
-	env : 'static',
-	serverExpress : app,
-	serverHttp : server,
-
-	// Tell it not to load the standard middlewares (as we handled that above)
-	middlewareStandard : false
-};
-
-var docpadInstance = dp.createInstance(docpadInstanceConfiguration, function(
-		err) {
-	if (err)
-		return console.log(err.stack);
-	// Tell DocPad to perform a generation, extend our server with its routes, and watch for changes
-	docpad.action('generate server watch', docpadInstanceConfiguration,
-			function(err) {
-				if (err)
-					return console.log(err.stack);
-			});
-});
-
-var smtpTransport = nodemailer.createTransport("SMTP", {
-	service : "Gmail",
-	auth : {
-		user : "smartlivingiosocial@gmail.com",
-		pass : "SmartLiving953"
-	}
-});
-
 app.post('/form/:campaign', function(req, res) {
 	var campaign = req.params.campaign;
 	console.log(req);
@@ -79,4 +45,36 @@ app.post('/form/:campaign', function(req, res) {
 	}
 	
 	res.send("Hartelijk bedankt!");
+});
+
+// Add DocPad to our Application
+var docpadInstanceConfiguration = {
+	// Give it our express application and http server
+	//		action: 'load ready generate',
+	env : 'static',
+	serverExpress : app,
+	serverHttp : server,
+
+	// Tell it not to load the standard middlewares (as we handled that above)
+	middlewareStandard : false
+};
+
+var docpadInstance = dp.createInstance(docpadInstanceConfiguration, function(
+		err) {
+	if (err)
+		return console.log(err.stack);
+	// Tell DocPad to perform a generation, extend our server with its routes, and watch for changes
+	docpad.action('generate server watch', docpadInstanceConfiguration,
+			function(err) {
+				if (err)
+					return console.log(err.stack);
+			});
+});
+
+var smtpTransport = nodemailer.createTransport("SMTP", {
+	service : "Gmail",
+	auth : {
+		user : "smartlivingiosocial@gmail.com",
+		pass : "SmartLiving953"
+	}
 });
