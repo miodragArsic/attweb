@@ -22,10 +22,10 @@ app.post('/form/:campaign', function(req, res) {
 		
 	if (email != null) {
 
-		var receivers = [ "tc@allthingstalk.com", "pl@allthingstalk.com" ];
+		var receivers = ["info@smartliving.io"];
 
 		var mailOptions = {
-			from : "Subscriber <subscriber@allthingstalk.com", // sender address
+			from : "Subscriber <info@smartliving.io", // sender address
 			to : receivers, // list of receivers
 			subject : email + " has subscribed for " + campaign, // Subject line
 			text : "Subscription for " + campaign +" "+ JSON.stringify(body)
