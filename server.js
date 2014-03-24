@@ -56,13 +56,13 @@ app.post('/form/:campaign', function(req, res) {
 		
 	if (email != null) {
 
-		var receivers = [ "tc@allthingstalk.com","pl@allthingstalk.com" ];
+		var receivers = [ "tc@allthingstalk.com", "pl@allthingstalk.com" ];
 
 		var mailOptions = {
 			from : "Subscriber <subscriber@allthingstalk.com", // sender address
 			to : receivers, // list of receivers
 			subject : email + " has subscribed for " + campaign, // Subject line
-			text : "Subscripition for " + campaign +" "+ JSON.stringify(body)
+			text : "Subscription for " + campaign +" "+ JSON.stringify(body)
 		}
 
 		smtpTransport.sendMail(mailOptions, function(error, response) {
@@ -78,5 +78,5 @@ app.post('/form/:campaign', function(req, res) {
 		console.log("No email found");
 	}
 	
-	res.send("Thanks");
+	res.send("Hartelijk bedankt!");
 });

@@ -68,7 +68,7 @@ $('#cta-scroll').click(function(e){
 
 		else
 		{
-			$('p.spam').text('Please enter a valid e-mail').effect("pulsate", { times:3 }, 1000);
+			$('p.spam').text('Gelieve een geldig e-mail adres op te geven').effect("pulsate", { times:3 }, 1000);
 			return false;
 		}
 		
