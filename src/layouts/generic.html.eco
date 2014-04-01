@@ -1,7 +1,0 @@
----
-layout: default
----
-	<div class="container">
-	<h1><%= @document.title %></h1>
-		<section id="content" class="content"><%- @content %></section>
-	</div>
