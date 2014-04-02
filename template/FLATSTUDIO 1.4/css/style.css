@@ -391,7 +391,8 @@ nav {
 
 
 #header {
-	background: url('http://www.placehold.it/1600x700') ; /* COLOR ON MOBILE DEVICE ON LINE 980 */
+/*	background: url('http://www.placehold.it/1600x700') ; /* COLOR ON MOBILE DEVICE ON LINE 980 */
+	background: '/img/logobanner.png';
 	background-position:center;
 	background-size: cover;
 	-webkit-background-size: cover;

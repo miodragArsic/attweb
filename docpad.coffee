@@ -3,7 +3,7 @@
 
 # Define the DocPad Configuration
 docpadConfig = {
-	# ...
+	srcPath: 'src'
 }
 
 # Export the DocPad Configuration

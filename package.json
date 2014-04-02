@@ -1,14 +1,40 @@
 {
-  "name": "no-skeleton.docpad",
-  "version": "0.1.0",
-  "description": "New DocPad project without using a skeleton",
+  "name": "twitter-bootstrap.docpad",
+  "version": "0.10.0",
+  "description": "Bootstrap skeleton for DocPad. Simple and flexible HTML, CSS, and Javascript for popular user interface components and interactions.",
+  "homepage": "https://github.com/bevry/twitter-bootstrap.docpad",
+  "keywords": [
+    "docpad-skeleton",
+    "docpad",
+    "website",
+    "bootstrap",
+    "twitter bootstrap"
+  ],
+  "author": "Bevry Pty Ltd <us@bevry.me> (http://bevry.me)",
+  "maintainers": [
+    "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
+  ],
+  "contributors": [
+    "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
+  ],
+  "bugs": {
+    "url": "https://github.com/docpad/twitter-bootstrap.docpad/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/docpad/twitter-bootstrap.docpad.git"
+  },
   "engines": {
     "node": "0.10",
-    "npm": "1.3"
+    "npm": "1.2"
   },
   "dependencies": {
-    "docpad": "~6.64.0",
-    "docpad-plugin-livereload": "~2.6.0"
+	"nodemailer":"*",
+	"express": "3.0.0",
+    "font-awesome": "~4.0.3"
+  },
+  "devDependencies": {
+    "docpad-plugin-livereload": "~2.5.6"
   },
   "main": "node_modules/docpad/bin/docpad-server",
   "scripts": {
