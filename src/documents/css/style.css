@@ -4,6 +4,11 @@
 	02. Generals Settings
 	03. Navigation
 	04. Header Section Settings
+	05. Ovewview Section Settings
+	06. Features Section Settings
+
+	=== Original styles:
+
 	05. Works Section Settings
 	06. Intersection Section Settings
 	07. Services Section Settings
@@ -260,7 +265,7 @@ nav {
 
 /* The hover state of the links */
 #nav li:hover a, #nav li .selected {
-	color: #E95855;}
+	color: #26B4DA;}
 
 #nav>li.dropdown>a {
 	padding-right: 28px;}
@@ -360,15 +365,15 @@ nav {
 /* FOR REDUCING THE HEIGHT OF THE NAVIGATION */
 
 .cbp-af-header #logo {
-	padding:30px 30px 0px 0px; 
-	width:90px;}
+	padding:44px 30px 0px 0px; 
+	width:227px;}
 
 .cbp-af-header #nav a {
 	line-height: 100px;}
 
 .cbp-af-header.cbp-af-header-shrink #logo { 
-	padding:20px 20px 0px 0px; 
-	width:60px;}
+	padding:25px 20px 0px 0px; 
+	width:200px;}
 
 /* Transitions and class for reduced height */
 
@@ -385,13 +390,15 @@ nav {
 	line-height: 60px;}
 
 
+
+
     
 /* 04. HEADER SETTINGS ================================================== */
 
 
 
 #header {
-	background: url('http://www.placehold.it/1600x700') ; /* COLOR ON MOBILE DEVICE ON LINE 980 */
+	background: url('/img/flower.jpg') ; /* COLOR ON MOBILE DEVICE ON LINE 980 */
 	background-position:center;
 	background-size: cover;
 	-webkit-background-size: cover;
@@ -407,6 +414,100 @@ nav {
 	font: 16px 'latolight', sans-serif;
 	font-size:1.3rem;
 	color:#FFF;}  
+
+
+/* 05. OVERVIEW SETTINGS ================================================== */
+
+
+/* Section */
+
+#overview {
+	padding:20px 0px 40px 0; 
+	background: #f1f1f1;}
+
+/* Make the Picture 100% */
+
+#overview img {
+	width: 100%;}
+
+/* Style of each member block */
+
+#overview .box {
+	margin-top:20px; 
+	padding-bottom:20px; 
+	border-bottom:4px solid #e5e5e5; 
+	background: #fff;}
+
+/* Name of the member */
+
+#overview .box h3 {
+  	background: none;
+	color: #4D4C4C;
+	font: 16px 'latobold', sans-serif;
+	letter-spacing: 2px;
+	padding-bottom: 2px;
+	padding-top: 10px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+/* Job in the studio */
+
+#overview .box h4 {
+	text-align: center;}
+
+#overview .box p {
+	line-height: 1.6em;
+	font: 14px 'latoregular', sans-serif;
+	text-align: center;
+	margin: 8px 20px 0;
+	color: #9E9E9E;
+}
+
+
+/* 06. FEATURES SETTINGS  ================================================== */
+
+
+
+/* Section */
+
+#features {
+	padding:40px 0px 40px 0; 
+	background: #f1f1f1;}
+
+/* The Title of the service */
+
+#features h3{
+	background: none; 	
+	padding-bottom: 10px;
+	padding-top: 0px; 
+	text-align: left;}
+
+/* Make the img 100% */
+
+#features img {
+	width: 100%; 
+	padding:10px;}
+	
+/* Style of each service */
+
+#features .box {
+	background: #FFF;
+	border-bottom: 4px solid #e5e5e5;
+	margin-bottom: 20px;
+	padding:20px;}
+
+#features .box .glyph {
+	font-size:48px;
+}
+
+
+
+/*
+**
+** ORIGINAL STYLES ================================================== 
+**
+*/
 
 
 
@@ -665,6 +766,7 @@ nav {
 
 
 
+
 /* 08. TEAM SETTINGS ================================================== */
 
 
@@ -904,7 +1006,7 @@ form {overflow:hidden}
 	background: #e95855;
 	padding:30px;
 	color: #FFF;
-	text-transform: uppercase;}
+	}
 
 /* Color White without bottom Border */
 
