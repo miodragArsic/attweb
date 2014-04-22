@@ -1,0 +1,22 @@
+{
+	 "repository": {
+		    "type": "git",
+		    "url": "https://bitbucket.org/allthingstalk/att-web.git"
+		  },
+  "dependencies": {
+<<<<<<< HEAD
+    "nodemailer": "*",
+    "express": "3.0.0",
+    "font-awesome": "~4.0.3"
+  },
+  "devDependencies": {
+    "docpad-plugin-livereload": "~2.6.0"
+  },
+  "main": "node_modules/docpad/bin/docpad-server",
+  "scripts": {
+    "start": "node_modules/docpad/bin/docpad-server"
+=======
+	  "express": "3.0.0"
+>>>>>>> 10a8c94d8e464d838bd5a5907266ba2274873feb
+  }
+}
