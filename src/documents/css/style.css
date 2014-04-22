@@ -423,22 +423,45 @@ nav {
 
 #overview {
 	padding:20px 0px 40px 0; 
-	background: #f1f1f1;}
+	background: url('/img/noisy_grid.png');
+}
 
 /* Make the Picture 100% */
 
-#overview img {
-	width: 100%;}
+
+#overview .image {
+ 	margin: 1em 0 0;  
+    height: 350px;
+    width: 300px;
+    position: relative;
+}  
+
+#overview .image img {
+ 	max-height: 350px;  
+    max-width: 300px;
+ 	position: absolute;  
+    top: 0;  
+    bottom: 0;  
+    left: 0;  
+    right: 0;  
+    margin: auto;  
+}
+
 
 /* Style of each member block */
 
 #overview .box {
 	margin-top:20px; 
-	padding-bottom:20px; 
 	border-bottom:4px solid #e5e5e5; 
-	background: #fff;}
+}
 
 /* Name of the member */
+
+#overview .box-inner {
+    background-color: #fff;
+	padding-bottom:20px; 
+}
+
 
 #overview .box h3 {
   	background: none;
