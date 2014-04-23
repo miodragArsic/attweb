@@ -423,14 +423,14 @@ nav {
 
 #overview {
 	padding:20px 0px 40px 0; 
-	background: url('/img/noisy_grid.png');
+	background: url('/img/isometric_grid.png');
 }
 
 /* Make the Picture 100% */
 
 
 #overview .image {
- 	margin: 1em 0 0;  
+ 	margin: 1em auto;  
     height: 350px;
     width: 300px;
     position: relative;
