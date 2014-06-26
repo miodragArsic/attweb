@@ -4,7 +4,7 @@
 	02. Generals Settings
 	03. Navigation
 	04. Header Section Settings
-	05. Ovewview Section Settings
+	05. Overview Section Settings
 	06. Features Section Settings
 
 	=== Original styles:
@@ -189,13 +189,12 @@ p a:hover {
 /* Button */
 
 .buttom {
-	margin-top: 200px;
 	background: #a0cac0;
     border-bottom: 4px solid #68a697;
     color: #FFFFFF;
     font-family: 'latolight', sans-serif;
     text-transform: uppercase;
-    padding:15px 20px;
+    padding:15px 20px 11px;
     font-size: 16px;
     line-height: 50px;
     min-width: 150px;
@@ -709,39 +708,71 @@ nav {
 
 
 
-/* 06. INTERSECTION SETTINGS ================================================== */
+/* 06. PROJECTS SETTINGS ================================================== */
 
 
 
 /* Section */
 
-#interblock {
-	width: 100%; 
-	height: auto; 
-	background: #363B48;
-	padding:120px 0; }
-
+#projects {
+    width: 100%;
+    height: auto;
+    background: #68B9DF; /* smartliving color */
+}
 /* Blockquote */
 
-#interblock h2 {
+#projects .content {
+    padding:80px 0; 
+}
+
+#projects h2 {
 	font-size:1.75rem; 
 	color:#FFF;}
 
 /* Text under the Blockquote */
 
-#interblock p {
+#projects p {
 	color:#FFF; 
 	font-size:1.3rem; 
-	font-family:'latolight', sans-serif;}
+	font-family:'latolight', sans-serif;
+}
+
+#projects a {
+    margin-top: 42px;
+    display:inline-block;
+    line-height:24px;
+    background: #36a9e1; /* smartliving color */
+    border-bottom-color: #0083C4;
+}
+
+#projects a strong {
+    font-family: 'latobold', sans-serif;
+    font-size: 22px;
+}
+
+#projects .stich-container {
+    position:relative;
+}
+
+#projects .stich-media {
+    position: absolute;
+    right:0;
+    bottom:0;
+}
+
+#projects .stich-media img {
+    width:300px;
+}
+
 
 /* Icon button */
 
-#interblock .buttongo {
+#projects .buttongo {
 	font-size:50px; 
 	padding:30px 0; 
 	text-align: right;}
 
-#interblock .buttongo a {	
+#projects .buttongo a {	
 	cursor: pointer;
 	-webkit-transition:all .25s cubic-bezier(0.25,0.46,0.45,0.94);
 	-moz-transition:all  .25s cubic-bezier(0.25,0.46,0.45,0.94);
@@ -750,7 +781,7 @@ nav {
 
 /* Hover Icon button */
 	
-#interblock .buttongo a:hover {
+#projects .buttongo a:hover {
 	opacity: 0.7;}
 
 
@@ -1141,6 +1172,14 @@ form {overflow:hidden}
 	
 	.container .interblock_footer p, .interblock_footer h2 {display: none;}
 	
+    
+    /* Center Projects section */
+
+    #projects { text-align:center; }
+
+    #projects .stich-media { display:none; }
+
+
 	/* Bigger Social Icon */
 	
 	.interblock_footer .icon { font-size: 40px; text-align: center; }
