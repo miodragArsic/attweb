@@ -750,20 +750,11 @@ nav {
     font-size: 22px;
 }
 
-#projects .stich-container {
-    position:relative;
+#projects .smartliving-content { 
+    background-image: url('/img/sl_connected_houses.png');
+    background-position:bottom right;
+    background-repeat: no-repeat;
 }
-
-#projects .stich-media {
-    position: absolute;
-    right:0;
-    bottom:0;
-}
-
-#projects .stich-media img {
-    width:300px;
-}
-
 
 /* Icon button */
 
@@ -1177,7 +1168,7 @@ form {overflow:hidden}
 
     #projects { text-align:center; }
 
-    #projects .stich-media { display:none; }
+    #projects .smartliving-content { background-image:none; }
 
 
 	/* Bigger Social Icon */
