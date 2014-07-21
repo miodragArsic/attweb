@@ -167,11 +167,13 @@ h4 {
 /* Link */
 
 a {
-  	color: #FFF;
-  	text-decoration: none;}
+  	color: #36a9e1;
+  	text-decoration: none;
+}
 
 a:hover {
-	color: #e5e5e5;}  
+	color: #26B4DA;
+}  
 	
 /* Paragrah */
 
@@ -208,6 +210,12 @@ p a:hover {
 	background: #93b7ae;
 	color:#FFF;}
 
+.circle li {
+	background: url(img/bullet.gif) no-repeat 10px 8px;
+	list-style: none;
+	margin: 0;
+	padding: 0 0 5px 30px;
+}
 
 
 /* 03. NAVIGATION ================================================== */
@@ -363,16 +371,19 @@ nav {
 
 /* FOR REDUCING THE HEIGHT OF THE NAVIGATION */
 
-.cbp-af-header #logo {
+.header #logo {
 	padding:44px 30px 0px 0px; 
-	width:227px;}
+	width:227px;
+}
 
-.cbp-af-header #nav a {
-	line-height: 100px;}
+.header #nav a {
+	line-height: 100px;
+}
 
 .cbp-af-header.cbp-af-header-shrink #logo { 
 	padding:25px 20px 0px 0px; 
-	width:200px;}
+	width:200px;
+}
 
 /* Transitions and class for reduced height */
 

@@ -1,0 +1,16 @@
+---
+layout: "12columns"
+
+---
+
+
+<% for page in @getCollection("jobs").toJSON(): %>
+    <article>
+    	<h2>
+	        <a href="<%= page.url %>"><%= page.jobPosition %></a>
+	    </h2>
+        <h4>Location: <%= page.jobLocation %></h4>
+        <h4>Date: <%= page.jobDate %></h4>
+        <a class="buttom" href="<%= page.url %>">View more details</a>
+    </article>
+<% end %>

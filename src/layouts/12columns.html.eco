@@ -1,0 +1,22 @@
+---
+layout: "default"
+---
+<nav class="row">
+
+	<div class="header">
+
+		<div id="logo"><a href="/"><img alt="ALLTHINGSTALK Logo" src="/img/logo.png"></a></div>
+
+	</div>
+	 
+</nav>
+
+<div class="row">
+    <div class="twelve columns">
+		
+
+
+		<%- @content %>
+
+	</div>
+</div>

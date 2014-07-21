@@ -1,0 +1,12 @@
+---
+layout: "12columns"
+---
+
+<h2><%= @document.jobPosition %></h2>
+<h4>Location: <%= @document.jobLocation %></h4>
+<h4>Date: <%= @document.jobDate %></h4>
+
+<%- @content %>
+
+
+<a href="mailto:we@allthigstalk.com?subject=<%= @document.jobPosition %>"><strong>Send us your resume</strong> and tell us what motivates you</a>
