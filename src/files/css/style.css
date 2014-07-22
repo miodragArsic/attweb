@@ -112,7 +112,6 @@
 /* 02. GENERALS SETTINGS ================================================== */
 
 
-
 /* Selected text Color */
 
 ::-moz-selection{background:#6ec5e2;color:white}
@@ -161,8 +160,10 @@ h4 {
     text-transform: uppercase;}
 
 
-.lead {
-	color:#686868;}
+p.lead {
+	color:#686868;
+	font-family: 'latolight', sans-serif;
+}
 	
 /* Link */
 
@@ -174,6 +175,18 @@ a {
 a:hover {
 	color: #26B4DA;
 }  
+
+a.multi {
+    margin-top: 42px;
+    display:inline-block;
+    line-height:24px;
+}
+
+a.multi strong {
+    font-family: 'latobold', sans-serif;
+    font-size: 22px;
+}
+
 	
 /* Paragrah */
 
@@ -215,6 +228,10 @@ p a:hover {
 	list-style: none;
 	margin: 0;
 	padding: 0 0 5px 30px;
+}
+
+.block {
+	padding: 40px 0px 40px 0
 }
 
 
@@ -749,16 +766,8 @@ nav {
 }
 
 #projects a {
-    margin-top: 42px;
-    display:inline-block;
-    line-height:24px;
     background: #36a9e1; /* smartliving color */
     border-bottom-color: #0083C4;
-}
-
-#projects a strong {
-    font-family: 'latobold', sans-serif;
-    font-size: 22px;
 }
 
 #projects .smartliving-content { 
