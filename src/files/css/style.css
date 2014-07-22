@@ -1157,6 +1157,16 @@ form {overflow:hidden}
 	text-transform: uppercase;}
 
 
+
+
+.stButton .stFb, .stButton .stTwbutton, .stButton .stMainServices {
+	height:30px !important; 
+}
+
+.stButton .stHBubble {
+	height:22px !important; 
+}
+
 /* Styling for mobile devices */
 
 
