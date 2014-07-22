@@ -7,7 +7,7 @@ docpadConfig = {
 
 	templateData:
 		site:
-			url: "http://www.wohoo.com"
+			url: "http://www.allthingstalk.com"
 
 	environments:
 		development:
