@@ -285,14 +285,19 @@ nav {
 	-ms-transition: color .2s ease-in, border-top-color .2s ease-in;
 	-moz-transition: color .2s ease-in, border-top-color .2s ease-in;
 	-o-transition: color .2s ease-in, border-top-color .2s ease-in;
-	transition: color .2s ease-in, border-top-color .2s ease-in;}
+	transition: color .2s ease-in, border-top-color .2s ease-in;
+}
 
 /* The hover state of the links */
 #nav li:hover a, #nav li .selected {
-	color: #26B4DA;}
+	color: #26B4DA;
+}
 
 #nav>li.dropdown>a {
-	padding-right: 28px;}
+	padding-right: 28px;
+}
+
+
 
 /* The arrow indicating a dropdown menu */
 .dropdown>a::after {

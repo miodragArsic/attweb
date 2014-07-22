@@ -16,7 +16,7 @@
   <meta name="keywords" content="" />
   <meta name="author" content="humans.txt">
 
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" /> <!-- Favicon /-->
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" /> <!-- Favicon /-->
 
   <!-- Facebook Metadata /-->
   <meta property="fb:page_id" content="" />
