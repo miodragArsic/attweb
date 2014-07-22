@@ -3,13 +3,23 @@ layout: "12columns"
 
 ---
 
+<h2>Who we are</h2>
+
+<p class='lead'>AllThingsTalk is a globally funded technology startup company building connected solutions for the rapidly growing 'Internet of Things' industry. Our core software component is .NET based, with many other components using the latest state-of-the-art technologies and frameworks. 
+
+<p class='lead'>New hires will be instrumental in shaping and developing innovative Internet of Things solutions with the most modern internet-based technologies, apps and devices.</p>
+</p>
+
+
+<h3>Open positions</h3>
+
 <% for page in @getCollection("jobs").toJSON(): %>
     <article>
     	<h2>
 	        <a href="<%= page.url %>"><%= page.jobPosition %></a>
 	    </h2>
         <h4>Location: <%= page.jobLocation %></h4>
-        <h4>Date: <%= page.jobDate %></h4>
+        <h4>Opened from: <%= page.jobDate %></h4>
 
         <a class="buttom" href="<%= page.url %>">View more details</a>
 

@@ -40,6 +40,10 @@
   
   <script src="/js/modernizr-2.6.2.min.js"></script>  <!-- Modernizr /-->
 
+  <script type="text/javascript">var switchTo5x=true;</script>
+  <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+  <script type="text/javascript">stLight.options({publisher: "6b04cba0-1b8e-4094-b7ad-70c12647efe6", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
+
 </head>
 
 

@@ -1,20 +1,36 @@
 ---
 layout: "default"
 ---
-<div class="row">
+
+<nav class="row">
 
 	<div class="header">
 
-		<div id="logo"><a href="<%- @site.url %>"><img alt="ALLTHINGSTALK Logo" src="/img/logo.png"></a></div>
+		<div id="logo"><a href="<%- @site.url %>"><img alt="ALLTHINGSTALK Logo" src="/img/logo.png"></a></div>  				
+		
+			<ul id="nav">
+	            <li><a href="/jobs">Jobs</a></li>
+			</ul>
+
+		</div>
 
 	</div>
 	 
-</div>
+</nav>
 
 <div class="row">
     <div class="twelve columns">
 		
 		<%- @content %>
 
+		<div>
+			<span class='st_facebook_hcount' displayText='Facebook'></span>
+			<span class='st_twitter_hcount' displayText='Tweet'></span>
+			<span class='st_linkedin_hcount' displayText='LinkedIn'></span>
+			<span class='st_email_hcount' displayText='Email'></span>
+		</div>
+
 	</div>
 </div>
+
+
