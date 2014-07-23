@@ -9,5 +9,5 @@ layout: "12columns"
 <%- @content %>
 
 <div class="block">
-	<a class="multi buttom" href="mailto:we@allthingstalk.com?subject=<%= @document.jobPosition %>"><strong>Send us your resume</strong><br> and tell us what motivates you</a>
+	<a class="multi buttom" href="mailto:np@allthingstalk.com?subject=<%= @document.jobPosition %>"><strong>Send us your resume</strong><br> and tell us what motivates you</a>
 </div>
