@@ -3,7 +3,7 @@ docpadConfig = {
 
     collections:
         jobs: ->
-            @getCollection("html").findAllLive({isJob:true})
+            @getCollection("html").findAllLive({isJob: true, isPublished: true})
 
 	templateData:
 		site:
