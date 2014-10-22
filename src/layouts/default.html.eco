@@ -61,13 +61,9 @@
           
           <div class="twelve columns">
           
-            <div class="four columns">
-              <p>ALLTHINGSTALK</p>
-            </div>
-       
-            <div class="four columns text-center">
-              <p><a href="mailto:info@allthingstalk.com">info@allthingstalk.com</a></p>
-            </div>
+            <section class="in-wrap" style="text-align:right;">
+        <p>© 2014 ALLTHINGSTALK | Made in Europe <br>
+        <i> Franklin Rooseveltlaan 348 · Gent 9000 · Belgium</i></p></section>
             
           </div>
           
