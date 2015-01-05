@@ -2,7 +2,6 @@
 /trash
 .elasticbeanstalk/
 .DS_Store
-/out
 *~
 
 # Elastic Beanstalk Files
