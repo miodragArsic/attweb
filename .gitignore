@@ -1,4 +1,6 @@
-/out
+!/out
+/out/*
+!/out/lightning-strikes-at-midnight
 /node_modules
 /trash
 /att-web.sublime-project
