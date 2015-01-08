@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=2, maximum-scale=1, user-scalable=no"/>
+    <title>Lightning could strike you at midnight</title>
+
+
+    <meta name="description" content="Desruptive inovation box"/>
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Build Your Personal Internet of Things | SmartLiving.io" />
+    <meta property="og:description" content="Create recipes to automate your home and life using your favourite smart devices, Raspberry Pi and Arduino, your favourite websites and your smartphone" />
+    <meta property="og:url" content="http://www.smartliving.io/" />
+    <meta property="og:site_name" content="Smartliving" />
+
+
+    <link href="font/nexa_black/stylesheet.css" media="screen" rel="stylesheet" type="text/css" >
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic,900,100' rel='stylesheet' type='text/css'>
+    <link href="css/style.css" media="screen" rel="stylesheet" type="text/css" />
+
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/modernizr.custom.17475.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+</head>
+
+<body>

@@ -1,0 +1,212 @@
+<%- @partial('site-head') %>
+
+        <ul class="nav">
+            <li data-scroll-trigger="0"></li>
+            <li data-scroll-trigger="1"></li>
+            <li data-scroll-trigger="2"></li>
+            <li data-scroll-trigger="3"></li>
+            <li data-scroll-trigger="4"></li>
+            <li data-scroll-trigger="5"></li>
+            <li data-scroll-trigger="6"></li>
+            <li data-scroll-trigger="7"></li>
+            <li data-scroll-trigger="8"></li>
+            <li data-scroll-trigger="9"></li>
+            <li data-scroll-trigger="10"></li>
+        </ul>
+
+<!--Section 01-->
+    <section class="section bg-color-light shown" data-scroll-target="0">
+            <div class="center">
+                <img src="images/logo.png" alt=""/>
+                <h5>TECHNOLOGY FOR A CONNECTED WORLD</h5>
+                <br/><br/><br/><br/>
+                <h1>LIGHTNING COULD STRIKE YOU AT MIDNIGHT</h1>
+                <br/><br/>
+                <img src="images/lightning.png" alt=""/>
+            </div>
+        <span class="arrow pulse" data-scroll-trigger="1"><img src="images/down_arrow.png" alt=""/></span>
+        </section>
+<!--Section 02-->
+    <section class="section bg-color-dark" data-scroll-target="1">
+            <div class="center">
+                <div class="text">
+                    <h2><b>SPRINKLER & Co</b> is active in a competitive market with low margins and faces hard times by cheap sprinklers imported from China…</h2>
+                    <h3>BUT HOW CAN THEY SURVIVE ?</h3>
+                </div>
+                <div class="img">
+                    <img src="images/building.png" alt=""/>
+                </div>
+            </div>
+        <span class="arrow pulse" data-scroll-trigger="2"><img src="images/down_arrow.png" alt=""/></span>
+        </section>
+<!--Section 03-->
+    <section class="section bg-color-yellow" data-scroll-target="2">
+            <div class="center">
+                <div class="text">
+                    <h2>Meet John, a junior sales at <b>SPRINKLER & Co</b>
+                        <br/> One Day, he discovered the </h2>
+                    <h3>DISRUPTIVE INNOVATION BOX…</h3>
+                </div>
+                <div class="img john-box">
+                    <img src="images/john.png" alt=""/>
+                    <img src="images/johns_box.png" alt=""/>
+                </div>
+            </div>
+        <span class="arrow pulse" data-scroll-trigger="3"><img src="images/down_arrow.png" alt=""/></span>
+        </section>
+<!--Section 04-->
+    <section class="section bg-color-orange" data-scroll-target="3">
+            <div class="center">
+                <div class="text">
+                    <h2>John started to add sensors to the existing sprinklers and connected it to the cloud…</h2>
+                </div>
+                <div class="img">
+                    <img src="images/img_01.png" alt=""/>
+                </div>
+            </div>
+        <span class="arrow pulse" data-scroll-trigger="4"><img src="images/down_arrow.png" alt=""/></span>
+        </section>
+<!--Section 05-->
+    <section class="section bg-color-aqua" data-scroll-target="4">
+            <div class="center">
+                <div class="text">
+                    <h2>John ended by connecting services such as weather forecast…</h2>
+                </div>
+                <div class="img">
+                    <img src="images/img_02.png" alt=""/>
+                </div>
+                <div class="text">
+                    <h2>Now the Sprinkler became <b>SMART</b> and can decide autonomous when to water the plants taking into account the weather predictions</h2>
+                </div>
+            </div>
+        <span class="arrow pulse" data-scroll-trigger="5"><img src="images/down_arrow.png" alt=""/></span>
+        </section>
+<!--Section 06-->
+    <section class="section bg-color-red" data-scroll-target="5">
+            <div class="center">
+                <div class="text">
+                    <h2>It turned out to be a big success… <br/> And boosted sales in no time…</h2>
+                </div>
+                <div class="img success">
+                    <img src="images/img_03.png" alt=""/>
+                </div>
+            </div>
+        <span class="arrow pulse" data-scroll-trigger="6"><img src="images/down_arrow.png" alt=""/></span>
+        </section>
+<!--Section 07-->
+    <section class="section bg-color-violet" data-scroll-target="6">
+            <div class="center">
+                <div class="text">
+                    <h2>Johns boss was very pleased…<br/> And made John Head of Innovation.</h2>
+                </div>
+                <div class="img pleased">
+                    <img src="images/pleased_boss.png" alt=""/>
+                    <img src="images/pleased_john.png" alt=""/>
+                </div>
+            </div>
+        <span class="arrow pulse" data-scroll-trigger="7"><img src="images/down_arrow.png" alt=""/></span>
+        </section>
+<!--Section 08-->
+    <section class="section bg-color-attDark" data-scroll-target="7">
+            <div class="center">
+                <div class="text">
+                    <h2>He also gave each employee a</h2>
+                    <h3>DISRUPTIVE INNOVATION BOX</h3>
+                    <h2>Because he  knows the ROI is guaranteed!</h2>
+                </div>
+                <div class="img">
+                    <img src="images/img_05.png" alt=""/>
+                    <div class="boxes">
+                        <img src="images/small_box.png" alt="" class="small-box"/>
+                        <img src="images/small_box.png" alt="" class="small-box"/>
+                        <img src="images/small_box.png" alt="" class="small-box"/>
+                        <img src="images/small_box.png" alt="" class="small-box"/>
+                        <img src="images/small_box.png" alt="" class="small-box"/>
+                    </div>
+                </div>
+            </div>
+        <span class="arrow pulse" data-scroll-trigger="8"><img src="images/down_arrow.png" alt=""/></span>
+        </section>
+<!--Section 09-->
+    <section class="section bg-color-light" data-scroll-target="8">
+            <div class="center">
+                <h1>WHEN DO YOU BRING INNOVATION TO YOUR COMPANY?</h1>
+                <br/><br/>
+                <img src="images/lightning.png" alt=""/>
+                <br/><br/>
+                <h4>MAKE SURE YOU DO IT BEFORE LIGTHNING STRIKES YOU!</h4>
+                <a class="cta" href="#" data-scroll-trigger="9">Find out how</a>
+            </div>
+            <span class="arrow pulse" data-scroll-trigger="9"><img src="images/down_arrow.png" alt=""/></span>
+        </section>
+<!--Section 10-->
+    <section class="section bg-color-dark" data-scroll-target="9">
+    <div class="content">
+      <div class="in-wrap">
+        <img src="images/logo.png" alt=""/>
+        <h5>TECHNOLOGY FOR A CONNECTED WORLD</h5>
+        <br/><br/>
+    </div>
+        <article class="half">
+        <div class="img"><img src="images/box_500.png" alt=""/><br/></div>
+        <h3>What is the disruptive innovation box?</h3>
+        <p>The disruptive innovation box is an experimental box for organizations and individuals to rapid prototype innovative products and build the next generation business models.</p>
+        <p>It exists of hardware components(inside the box) which connects to an Open and Scalable cloud solution</p>
+        <br/>
+        <h2>What's in the box?</h2>
+        <br/>
+        <ul>
+            <li>a raspberry PI B+ micro controller</li>
+            <li>a grove shield to make it Lego(r) simple</li>
+            <li>a collection of sensors and actuators to hook up the physical world</li>
+            <li>a freemium account on the SmartLiving IoT cloud platform to add services and automation</li>
+        </ul>
+    </article>
+        <article class="half">
+        <div class="img"><img src="images/team_500.png" alt=""/><br/></div>
+        <h3>What’s included in the Innovation workshop?</h3>
+        <br/>
+        <h2>a 4 hour workshop for up to 10 participants.</h2>
+        <br/>
+        <p>The workshop is based on a methodology for building the IoT which covers 6 steps from co-create to deploy.</p>
+        <p>During the workshop we will co-create, ideate based on an IoT lean canvas, organize Q&A to close the gap between idea and implementation, architect the IoT OSI. The workshop end by building a prototype using the ingredients included in the disruptive innovation box.
+            <a href="http://www.iotmethodology.com">(http://www.iotmethodology.com)</a></p>
+    </article>
+    </div>
+    <span class="arrow pulse" data-scroll-trigger="10"><img src="images/down_arrow.png" alt=""/></span>
+</section>
+<!--Section 11-->
+    <section class="section bg-color-light" data-scroll-target="10">
+    <div class="content">
+        <article class="four offer">
+            <img src="images/order_box_01.png" alt=""/>
+            <p>Buy a Disruptive Innovation Box and organize your own Innovation workshop in your company</p>
+            <p><b>250€ excl VAT</b></p>
+        </article>
+        <article class="four offer">
+            <img src="images/order_box_02.png" alt=""/>
+            <p>Buy 3 Disruptive Innovation Boxes and get a lean startup book for free to organize you own Innovation workshop in your company</p>
+            <p><b>750 € excl VAT</b></p>
+        </article>
+        <article class="four offer">
+            <img src="images/order_box_03.png" alt=""/>
+            <p>Buy 10 Disruptive Innovation Boxes and We bring a free Innovation workshop to your company</p>
+            <p><b>2500€ excl VAT</b></p>
+        </article>
+        <article class="four offer">
+            <img src="images/order_box_04.png" alt=""/>
+            <p>Want more Boxes? Contact us and we will organize a Personalized workshop for your organization...</p>
+            <p><b>Contact us</b></p>
+        </article>
+        <div class="text-center"><a class="cta red" href="http://shop.smartliving.io" target="_blank">Order</a></div>
+        <h3 class="text-center">Need more information?</h3>
+        <p class="text-center">contact us on <a href="mailto:sales@allthingstalk.com">sales@allthingstalk.com</a> or phone +32 (0)9 265 02 74</p>
+        <small class="text-center">© 2015 ALLTHINGSTALK | Made in Europe <br/> Park Office - Franklin Rooseveltlaan 348 - B-9000 Gent - Belgium - +32 (0)9 265 02 74 - info@allthingstalk.com -</small>
+    </div>
+    <span class="arrow pulse" data-scroll-trigger="0"><img src="images/up_arrow.png" alt=""/></span>
+</section>
+
+<%- @partial('site-bottom') %>
+
+
+

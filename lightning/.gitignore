@@ -1,0 +1,10 @@
+/node_modules
+/trash
+.elasticbeanstalk/
+.DS_Store
+*~
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
